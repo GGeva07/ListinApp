@@ -1,0 +1,106 @@
+.navbar{
+  width: auto;
+  font-weight: bold;    
+  height: 50px;
+  background-color: cadetblue!important;
+  color: antiquewhite;
+  box-shadow: 5px 5px 10px darkslategrey;
+}
+
+form{
+  margin-top: 20px;
+}
+
+.imgdiv{
+  margin-left: 20px;
+}
+
+nav > svg{
+  margin-right: 20px;
+  color: aliceblue;
+}
+
+body{
+    background-color: rgb(141, 189, 190)!important;
+}
+.seccion_central{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.seccion_lateral_fija{
+  position: fixed;
+  background-color: rgba(84, 137, 158, 0.438);
+  margin-left: 10px;
+  box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.3); 
+  height: 100dvh;
+  text-align: center;
+}
+
+.seccion_lateral_fija > div > h5{
+  margin-top: 20px;
+  color: aliceblue;
+  font-weight: bold;
+  
+}
+.seccion_lateral_fija > div > h5:hover{
+  color: rgb(111, 145, 167);
+}
+.seccion_lateral_fija > div > h6{
+  margin-top: 30px;
+  width: auto;
+  height: 40px;
+  border-bottom: 2px inset aliceblue;
+  box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.3); 
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.seccion_lateral_fija > div > h6:hover{
+  color: rgb(111, 145, 167);
+} 
+.btn{
+  margin-left: 100px;
+}
+
+.bi {
+  color: aliceblue !important;
+}
+
+.boton{
+  color: darkslategrey !important;
+  background-color: aliceblue !important;
+}
+
+.list-group-item{
+  margin-bottom:  5px;
+  border-radius: 10px;
+}
+
+.boton_modal{
+  background-color: rgb(62, 107, 124) !important;
+  color: aliceblue !important;
+}
+
+.Lista-Tareas-Lateral{
+  margin-top: 20px;
+  margin-left: 20px;
+  
+  width: 75%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.titulos-tareas{
+  color: aliceblue !important;
+  margin-left: 20px;
+}
+
+.bi-trash-fill{
+  color: rgb(67, 91, 97) !important;
+}
+
+.bi-pencil-square{
+  color: rgb(67, 91, 97) !important;
+}
